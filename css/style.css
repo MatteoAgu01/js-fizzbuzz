@@ -1,0 +1,16 @@
+.square{
+	border: 1px solid black;
+	width: calc(60vw/ 10);
+	height: calc(60vw/ 10);
+	margin: 2px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#container{
+	display: flex;
+	flex-flow: row wrap;
+	width: 60%;
+	margin: 20px auto;
+}
